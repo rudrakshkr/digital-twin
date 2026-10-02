@@ -1,0 +1,108 @@
+{
+  "model_type": "RandomForestClassifier",
+  "random_state": 42,
+  "train_patients": 240,
+  "test_patients": 60,
+  "train_rows": 159120,
+  "test_rows": 39780,
+  "roc_auc": 0.9522555042208608,
+  "pr_auc": 0.5589592012269803,
+  "threshold": 0.5,
+  "positive_rate_test": 0.0691553544494721,
+  "features": [
+    "glucose",
+    "heart_rate",
+    "hrv",
+    "steps",
+    "glucose_lag_15m",
+    "glucose_lag_30m",
+    "glucose_lag_60m",
+    "glucose_lag_120m",
+    "glucose_change_15m",
+    "glucose_change_60m",
+    "glucose_mean_60m",
+    "glucose_std_60m",
+    "glucose_mean_120m",
+    "glucose_std_120m",
+    "steps_60m",
+    "steps_120m",
+    "heart_rate_mean_60m",
+    "hrv_mean_60m",
+    "hour_sin",
+    "hour_cos",
+    "day_of_week",
+    "age",
+    "bmi",
+    "hba1c",
+    "fasting_glucose",
+    "systolic_bp",
+    "diastolic_bp",
+    "cholesterol",
+    "family_history_diabetes",
+    "medication_metformin",
+    "medication_metformin_glimepiride",
+    "medication_none"
+  ],
+  "top_features": [
+    {
+      "feature": "fasting_glucose",
+      "importance": 0.14255956769656492
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.1199883316896792
+    },
+    {
+      "feature": "hba1c",
+      "importance": 0.11179297652536233
+    },
+    {
+      "feature": "glucose",
+      "importance": 0.09094766594037171
+    },
+    {
+      "feature": "glucose_mean_120m",
+      "importance": 0.07012934381369391
+    },
+    {
+      "feature": "glucose_mean_60m",
+      "importance": 0.06918727435333373
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.06013982096469607
+    },
+    {
+      "feature": "bmi",
+      "importance": 0.056842888249652494
+    },
+    {
+      "feature": "glucose_lag_120m",
+      "importance": 0.044280733457234364
+    },
+    {
+      "feature": "glucose_lag_15m",
+      "importance": 0.04190918897983516
+    },
+    {
+      "feature": "glucose_lag_30m",
+      "importance": 0.038353479383551076
+    },
+    {
+      "feature": "glucose_lag_60m",
+      "importance": 0.026857693802009138
+    },
+    {
+      "feature": "steps_60m",
+      "importance": 0.016067977078863798
+    },
+    {
+      "feature": "heart_rate_mean_60m",
+      "importance": 0.012093778869934903
+    },
+    {
+      "feature": "steps_120m",
+      "importance": 0.011666140065256365
+    }
+  ]
+}
